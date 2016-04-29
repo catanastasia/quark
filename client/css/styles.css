@@ -3,10 +3,9 @@ body {
     color: #4A4A4A;
     background-image: url("../images/everything-is-fine.gif");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 @font-face {
