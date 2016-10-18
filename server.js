@@ -11,7 +11,7 @@ server.locals.config = config;
 server.listen(process.env.PORT || config.port);
 
 server.get('*', function(req, res) {
-   res.sendFile(path.join(__dirname + 'index.html'));
+   res.sendFile(path.join(__dirname + '/index.html'));
 });
 
 console.log(`I'm listening on ${process.env.PORT || config.port}`);
